@@ -167,6 +167,9 @@
   text-indent: 10px;
   transition: all 0.3s ease-in-out;
 }
+.type__column:last-child {
+  display: flex;
+}
 .type__column:last-child i {
   margin: 0 3px;
 }
