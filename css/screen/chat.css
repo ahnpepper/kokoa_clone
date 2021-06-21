@@ -172,6 +172,7 @@
   width: 15%;
   display: flex;
   justify-content: space-evenly;
+  margin-right: 5px;
 }
 .type__column:first-child,
 .type__column:last-child {
@@ -184,5 +185,5 @@
 }
 .type:focus-within input {
   width: 90vw;
-  transform: translateX(-5%);
+  transform: translateX(-8%);
 }
