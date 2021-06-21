@@ -1,0 +1,24 @@
+@import "reset.css";
+@import "variables.css";
+@import "components/statusBar.css";
+@import "components/navMenu.css";
+@import "components/noMobile.css";
+@import "screen/splashScreen.css";
+@import "screen/main.css";
+@import "screen/screenHeader.css";
+@import "screen/friends.css";
+@import "screen/chatList.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chat.css";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #333;
+}
+.wrap {
+  position: relative;
+  top: 25px;
+}

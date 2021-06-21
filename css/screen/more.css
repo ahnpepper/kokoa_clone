@@ -1,0 +1,74 @@
+.more__Header {
+  width: 100%;
+  position: relative;
+}
+.profile__txt {
+  display: flex;
+  flex-direction: column;
+}
+.profile__txt span:last-child {
+  font-weight: normal;
+  color: var(--grey);
+  margin-top: 5px;
+  font-size: 12px;
+}
+.more__Header i {
+  position: absolute;
+  right: 25px;
+  font-size: 25px;
+  color: var(--deepcocoa);
+}
+.more__iconWrap {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.more__iconWrap span {
+  width: 25%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.more__iconWrap span i {
+  width: 100%;
+  font-size: 40px;
+  color: var(--deepcocoa);
+  margin-bottom: 10px;
+}
+.more__suggestions {
+  width: 90%;
+  margin: 0 auto;
+}
+.iconWrap {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.iconWrap span {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconWrap span i {
+  width: 50px;
+  height: 50px;
+  margin: 5px auto 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #fff;
+  background-color: var(--deepcocoa);
+}
+.iconWrap span a {
+  font-size: 14px;
+}

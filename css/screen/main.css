@@ -1,0 +1,57 @@
+/*본문*/
+
+.mainHeader {
+  width: 70%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px auto;
+  text-align: center;
+}
+.mainHeader h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--deepcocoa);
+}
+.mainHeader p {
+  color: var(--grey);
+  font-size: 16px;
+}
+.loginForm {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.loginForm input {
+  width: 100%;
+  padding: 12px 0px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.loginForm input:not([type="submit"]) {
+  border-bottom: 1px solid var(--grey);
+  transition: border-color 0.3s ease-in-out;
+}
+.loginForm input::placeholder {
+  color: var(--grey);
+}
+.loginForm input:focus {
+  border-bottom: 1px solid var(--cocoa);
+}
+.loginForm input[type="submit"] {
+  background-color: var(--cocoa);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.loginForm a {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--deepcocoa);
+}

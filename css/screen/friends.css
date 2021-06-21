@@ -1,0 +1,80 @@
+.friends {
+  width: 100%;
+}
+.friends > a {
+  display: block;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  background-color: #eee;
+}
+.friends a i {
+  color: var(--grey);
+}
+.profile {
+  width: 90%;
+  margin: 23px auto;
+  display: flex;
+  align-items: center;
+}
+.profile__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.profile__name {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.friendsList {
+  width: 90%;
+  margin: 0 auto;
+}
+.borderTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+.friends_profile {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.friends_profile__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.friends_profile__name {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.friends_profile__music {
+  width: 160px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border: 2px solid var(--cocoa);
+  border-radius: 10px;
+  font-size: 12px;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+.friends_profile__music i {
+  color: var(--cocoa);
+}

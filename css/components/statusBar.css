@@ -1,0 +1,24 @@
+/*status Bar*/
+
+.statusBar {
+  width: 95%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.statusBar__content:first-child span {
+  margin-right: 3px;
+}
+.statusBar__content:last-child i {
+  font-size: 15px;
+  position: relative;
+  top: 1px;
+}

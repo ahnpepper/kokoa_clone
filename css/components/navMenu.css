@@ -1,0 +1,75 @@
+/*navMenu*/
+
+.navMenu {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: var(--cocoa);
+}
+.navMenu ul {
+  display: flex;
+}
+@keyframes appearBtn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.navMenu ul li {
+  width: 25%;
+  text-align: center;
+  padding: 25px;
+  font-size: 22px;
+  opacity: 0;
+  animation: appearBtn 1s ease-in-out forwards;
+}
+.navMenu ul li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.navMenu ul li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.navMenu ul li:last-child {
+  animation-delay: 0.6s;
+}
+.navMenu ul li a {
+  color: #fff;
+  position: relative;
+}
+@keyframes badgeAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.navMenu span {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -6px;
+  left: 15px;
+  background-color: var(--deepcocoa);
+  animation: badgeAnimation 2s ease-in-out infinite;
+}
+.navMenu li:last-child span {
+  width: 8px;
+  height: 8px;
+  left: 30px;
+  top: -4px;
+  animation: none;
+}

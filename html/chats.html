@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+            rel="shortcut icon"
+            sizes="16x16 32x32 64x64"
+            href="../image/cocoa.png"
+        />
+    <title>CocoaTalk</title>
+</head>
+<body>
+    <div class="statusBar">
+        <div class="statusBar__content">
+            <span>No Service</span>
+            <span><i class="fas fa-wifi"></i></span>
+        </div>
+        <div class="statusBar__content">
+            <span>13:57</span>
+        </div>
+        <div class="statusBar__content">
+            <span>81%</span>
+            <span><i class="fas fa-battery-three-quarters"></i></span>
+        </div>
+    </div><!--status bar 끝-->
+    <div class="wrap">
+        <header class="screenHeader">
+            <h1>Chats</h1>
+            <div class="screenHeader__icon">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-music"></i></a>
+                <a href="#"><i class="fas fa-cog"></i></a>
+            </div>
+        </header><!--screen header 끝-->
+        <a href="chat.html">
+            <div class="chatList">
+                <div class="chatList__profile">
+                    <img class="friends_profile__img" src="https://cdnimg.melon.co.kr/cm2/artistcrop/images/007/35/541/735541_20210316172312.jpg/melon/thumbnail/320x300" alt="딘딘 프로필사진">
+                </div>
+                <div class="chatList__txt">
+                    <span class="friends_profile__name">딘딘</span>
+                    <span class="chatList__msg">뭐해 바빠? 나랑 놀자</span>
+                </div>
+                <div class="chatList__num">
+                    <span class="chatList__time">13:36</span>
+                    <span class="chatList__msgNum badge">1</span>
+                </div>
+            </div>
+        </a><!--본문 끝-->
+        <nav class="navMenu">
+            <ul>
+                <li>
+                    <a href="friends.html">
+                        <i class="far fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-comment"></i>
+                        <span class="badge">1</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="find.html">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="more.html">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <span class="n_badge"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav><!--Nav Menu 끝-->
+    </div>
+    <div class="noMobile">
+        <span>Your screen is too big &#128557;</span>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

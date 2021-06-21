@@ -1,0 +1,53 @@
+.settingHeader {
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--deepcocoa);
+}
+.settingHeader h1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.settingHeader a {
+  font-size: 18px;
+}
+.setting__general,
+.setting__personal {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.setting__general {
+  border-bottom: 1px solid #eee;
+}
+.setting__general ul li,
+.setting__personal ul li {
+  height: 50px;
+  line-height: 50px;
+}
+.setting__general i,
+.setting__personal i {
+  margin-right: 10px;
+  color: var(--deepcocoa);
+}
+.setting__general span {
+  color: var(--grey);
+  float: right;
+}
+.new {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 15px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--deepcocoa);
+}
