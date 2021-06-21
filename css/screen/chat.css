@@ -185,5 +185,5 @@
 }
 .type:focus-within input {
   width: 90vw;
-  transform: translateX(-10%);
+  transform: translateX(-9%);
 }
