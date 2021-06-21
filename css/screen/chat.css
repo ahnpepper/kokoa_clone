@@ -171,7 +171,7 @@
 .type__column:last-child {
   width: 15%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .type__column:first-child,
 .type__column:last-child {
